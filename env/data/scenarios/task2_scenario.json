@@ -1,0 +1,6 @@
+[
+  {"type": "rename_column", "from": "user_id", "to": "customer_uuid"},
+  {"type": "rename_column", "from": "date_of_birth", "to": "dob_date"},
+  {"type": "type_change", "row": 12, "column": "dob_date"},
+  {"type": "add_column", "column": "consent_flag", "default": null}
+]

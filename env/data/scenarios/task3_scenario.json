@@ -1,0 +1,6 @@
+[
+  {"type": "schema_drift", "column": "revenue", "to": "revenue_stage3"},
+  {"type": "type_error", "row": 20, "column": "revenue_stage3"},
+  {"type": "pii_leak", "row": 15, "column": "ssn"},
+  {"type": "duplicate_aggregation", "row": 30, "column": "revenue_stage3"}
+]

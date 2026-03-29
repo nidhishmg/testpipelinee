@@ -1,0 +1,7 @@
+[
+  {"type": "null_salary", "rows": [23, 47, 89]},
+  {"type": "type_corruption", "row": 5},
+  {"type": "out_of_range", "row": 67},
+  {"type": "duplicate_rows", "rows": [34, 35]},
+  {"type": "format_inconsistency", "row": 10}
+]
